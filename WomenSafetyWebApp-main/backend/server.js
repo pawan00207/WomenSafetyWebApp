@@ -6,6 +6,7 @@ const userRoutes = require("./routes/userRoutes");
 const incRoutes = require("./routes/incidentRoutes");
 const emergencyRoutes = require("./routes/emergencyRoutes");
 const chatRoutes = require('./routes/chatRoutes')
+const consultancyRoutes = require('./routes/consultancyRoutes')
 require("dotenv").config();
 
 const app = express();
@@ -29,6 +30,7 @@ app.use("/api/v1/users", userRoutes);
 app.use("/api/v1/incidents", incRoutes);
 app.use("/api/v1/emergency", emergencyRoutes);
 app.use('/api/v1/chats',chatRoutes)
+app.use('/api/v1/consultancy', consultancyRoutes)
 
 app.use(errorHandler);
 

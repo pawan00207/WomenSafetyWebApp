@@ -14,6 +14,7 @@ import CloseFile from './pages/CloseFile'
 import AboutUs2 from './pages/AboutUs2';
 import ContactUs from './Components/ContactUs';
 import ChatScreen from './pages/ChatScreen'
+import ConsultancyChat from './pages/ConsultancyChat'
 import HeroCaro from './pages/HeroCaro';
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
       <Route path='/incident' element={<Incident/>} />
       <Route path='/closedreport' element={<CloseFile/>} />
       <Route path='/chat' element={<ChatScreen/>} />
+      <Route path='/consultancy' element={<ConsultancyChat/>} />
       </Routes>
       <Toaster />
     </Router>

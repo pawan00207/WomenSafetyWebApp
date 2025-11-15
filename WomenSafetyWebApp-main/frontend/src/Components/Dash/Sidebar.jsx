@@ -76,6 +76,14 @@ const Sidebar = () => {
                 </a>
               </Link>
             </li>
+            <li className="sideBar">
+              <Link to="/consultancy" style={{ textDecoration: "none" }}>
+                <a href="#" className="nav-link text-white">
+                  <i class="fa-solid fa-comments mx-2 text-white"></i>
+                  24/7 Consultancy
+                </a>
+              </Link>
+            </li>
 
           </ul>
           <hr />
