@@ -4,7 +4,7 @@ const { ConsultancyChat } = require('../models/consultancyChatModel');
 const OpenAI = require('openai');
 
 const openai = new OpenAI({
-    apiKey: process.env.OPENAI_API_KEY,
+    apiKey: 'AIzaSyCGqhyggEBr_3n4QIYHZcRjPCK5jYv7wSU',
 });
 
 const sendConsultancyMessage = asyncHandler(async (req, res) => {
