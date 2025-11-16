@@ -12,4 +12,4 @@ services:
     name: frontend
     rootDir: ./WomenSafetyWebApp-main/frontend
     buildCommand: npm install && npm run build
-    publishPath: ./build
+    publishPath: build
