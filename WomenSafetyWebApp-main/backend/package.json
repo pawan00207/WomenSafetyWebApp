@@ -4,10 +4,11 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js"
   },
-  "author": "React-Rangers",
+  "author": "Pawan Singh",
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.1467.0",
