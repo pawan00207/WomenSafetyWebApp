@@ -20,7 +20,7 @@ const Footer = (props) => {
                     {/* <h1 className='text-sm' style={{fontSize:'25px'}}>WOMEN SECURE</h1> */}
 
                     <p className="footer_text" style={{ textAlign: "justify" }}>
-                      At SAFE SIREN , we're dedicated to making Secure website
+                      At GUARDIAN SHIELD , we're dedicated to making Secure website
                       for women saftey and we give our best at what we do
                     </p>
                   </div>
@@ -55,7 +55,7 @@ const Footer = (props) => {
                   </div>
                   <div className="col-12 footer_credits text-center">
                     <span>
-                      © 2025 <a>SAFE SIREN</a>™. All Rights Reserved.
+                      © 2025 <a>GUARDIAN SHIELD</a>™. All Rights Reserved.
                     </span>
                   </div>
                 </div>
@@ -74,7 +74,7 @@ const Footer = (props) => {
                     {/* <h1 className='text-sm' style={{fontSize:'25px'}}>WOMEN SECURE</h1> */}
 
                     <p className="footer_text" style={{ textAlign: "justify" }}>
-                      At SAFE SIREN , we're dedicated to making Secure website
+                      At GUARDIAN SHIELD , we're dedicated to making Secure website
                       for women saftey and we give our best at what we do
                     </p>
                   </div>
@@ -109,7 +109,7 @@ const Footer = (props) => {
                   </div>
                   <div className="col-12 footer_credits text-center">
                     <span>
-                      © 2025 <a>SAFE SIREN</a>™. All Rights Reserved.
+                      © 2025 <a>GUARDIAN SHIELD</a>™. All Rights Reserved.
                     </span>
                   </div>
                 </div>

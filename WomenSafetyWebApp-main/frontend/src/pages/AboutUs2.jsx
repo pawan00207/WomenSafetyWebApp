@@ -28,10 +28,10 @@ const AboutUs2 = () => {
             <div className="col-sm-12 col-lg-5 text-center text-lg-start">
               <p className="about_number">1</p>
               <h2 className="about_title">
-                Welcome to Safe Siren Empowering Women, Ensuring Safety
+                Welcome to GUARDIAN SHIELD Empowering Women, Ensuring Safety
               </h2>
               <p className="about_text " style={{ textAlign: "justify" }}>
-                At Safe Siren, we are dedicated to creating a safer world for
+                At GUARDIAN SHIELD, we are dedicated to creating a safer world for
                 women. Our journey began with a simple yet powerful idea - to
                 provide women with a tool that empowers them to feel secure and
                 confident in any situation. We understand the unique challenges
@@ -40,7 +40,7 @@ const AboutUs2 = () => {
               </p>
               {/* <div className="my-5">
                 <Link to="/" className="learn-more-btn">
-                  Safe Siren
+                  GUARDIAN SHIELD
                 </Link>
               </div> */}
             </div>
@@ -57,7 +57,7 @@ const AboutUs2 = () => {
               </div>
               <div className="col-sm-12 col-lg-6 text-center text-lg-start">
                 <p className="about_number">2</p>
-                <h2 className="about_title">Why Safe Siren?</h2>
+                <h2 className="about_title">Why GUARDIAN SHIELD?</h2>
                 <p className="about_text" style={{ textAlign: "justify" }}>
                   Safety in Your Hands: We put safety in your hands with a
                   user-friendly mobile application that is designed to be your
