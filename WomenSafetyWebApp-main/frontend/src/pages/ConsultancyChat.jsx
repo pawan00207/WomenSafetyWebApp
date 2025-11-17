@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Sidebar from "../Components/Dash/Sidebar";
-import API from "../api";
+import axios from "axios";
 import { toast } from "react-hot-toast";
 
 const ConsultancyChat = () => {
@@ -17,8 +17,8 @@ const ConsultancyChat = () => {
   const fetchChats = async () => {
     try {
       const token = localStorage.getItem("token");
-      const response = await API.get(
-        `/api/v1/consultancy/${userId}`,
+      const response = await axios.get(
+        `http://localhost:8000/api/v1/consultancy/${userId}`,
         {
           headers: { Authorization: `Bearer ${token}` },
         }
@@ -35,8 +35,8 @@ const ConsultancyChat = () => {
     setLoading(true);
     try {
       const token = localStorage.getItem("token");
-      const response = await API.post(
-        "/api/v1/consultancy",
+      const response = await axios.post(
+        "http://localhost:8000/api/v1/consultancy",
         { userId, message },
         {
           headers: { Authorization: `Bearer ${token}` },
