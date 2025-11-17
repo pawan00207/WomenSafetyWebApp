@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import axios from 'axios'
+import API from '../api'
 import { useAuth } from '../context/auth'
 import toast from 'react-hot-toast'
 import reports from '../images/report.png'
@@ -28,7 +28,7 @@ const Report = () => {
             return false
         }
         try {
-            const res = await axios.post('https://womensecbackend.onrender.com/api/v1/incidents',
+            const res = await API.post('/api/v1/incidents',
                 { report, pincodeOfIncident, address });
 
             if (res.status === 201) {

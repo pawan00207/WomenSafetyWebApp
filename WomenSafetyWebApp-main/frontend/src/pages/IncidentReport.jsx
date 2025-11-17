@@ -1,7 +1,7 @@
 import React from "react";
 import Sidebar from "../Components/Dash/Sidebar";
 import { useState } from "react";
-import axios from 'axios'
+import API from '../api'
 import { useEffect } from "react";
 
 const Dashboard = (props) => {
@@ -9,7 +9,7 @@ const Dashboard = (props) => {
 
   const getAllIncident = async () => {
     try {
-      const { data } = await axios.get('https://womensecbackend.onrender.com/api/v1/incidents')
+      const { data } = await API.get('/api/v1/incidents')
 
       if (data) {
         setincidentreport(data)

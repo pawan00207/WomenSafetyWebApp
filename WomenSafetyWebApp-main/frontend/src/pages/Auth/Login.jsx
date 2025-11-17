@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import '../../styles/auth.css'
 import { Link, useNavigate } from 'react-router-dom'
 import login from '../../images/login.png'
-import axios from 'axios'
+import API from '../../api'
 import toast from 'react-hot-toast';
 import { useState } from 'react'
 import { useAuth } from '../../context/auth'
@@ -34,7 +34,7 @@ const Login = () => {
             return false;
         }
         try {
-            const res = await axios.post('https://womensecbackend.onrender.com/api/v1/users/login', {
+            const res = await API.post('/api/v1/users/login', {
                 email, password
             });
 

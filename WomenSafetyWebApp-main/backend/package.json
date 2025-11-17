@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "build": "echo \"Build script added to satisfy Render\" && exit 0"
   },
   "author": "Pawan Singh",
   "license": "ISC",

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import '../../styles/auth.css'
 import { Link, useNavigate } from 'react-router-dom'
 import register from '../../images/register.png'
-import axios from 'axios'
+import API from '../../api'
 import toast from 'react-hot-toast';
 
 const Register = () => {
@@ -63,7 +63,7 @@ const Register = () => {
             return false;
         }
         try {
-            const res = await axios.post('https://womensecbackend.onrender.com/api/v1/users/register',
+            const res = await API.post('/api/v1/users/register',
                 { uname, email, phone, password, emergencyNo, emergencyMail, pincode });
 
             if (res.status === 201) {

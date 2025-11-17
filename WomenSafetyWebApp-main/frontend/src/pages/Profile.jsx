@@ -4,7 +4,7 @@ import Navbar from '../Components/Navbar/Navbar'
 import Footer from '../Components/Footer/Footer'
 import { useAuth } from '../context/auth'
 import toast from 'react-hot-toast'
-import axios from 'axios'
+import API from '../api'
 import { useNavigate } from 'react-router-dom'
 
 const Profile = () => {
@@ -43,7 +43,7 @@ const Profile = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.put("https://womensecbackend.onrender.com/api/v1/users/update", {
+      const { data } = await API.put("/api/v1/users/update", {
         uid,
         uname,
         email,
