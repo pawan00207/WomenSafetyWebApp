@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: backend
+    runtime: node
+    rootDir: ./WomenSafetyWebApp-main/backend
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+  - type: static
+    name: frontend
+    rootDir: ./WomenSafetyWebApp-main/frontend
+    buildCommand: npm install && npm run build
+    publishPath: build

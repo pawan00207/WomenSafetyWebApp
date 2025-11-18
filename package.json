@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "HerGuardianApp",
   "version": "0.0.1",
   "private": true,
@@ -39,3 +40,9 @@
     "node": ">=20"
   }
 }
+=======
+  "name": "women-safety-webapp",
+  "version": "1.0.0",
+  "license": "ISC"
+}
+>>>>>>> e18be5acd6eaa4c0663a0c47a8e46459038aa03e

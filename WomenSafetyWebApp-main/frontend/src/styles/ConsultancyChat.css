@@ -1,0 +1,117 @@
+.consultancy-chat-page {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+}
+
+.chat-header {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  text-align: center;
+}
+
+.chat-header h3 {
+  margin: 0;
+  font-weight: 700;\n  color: #343a40;
+}
+
+.chat-header p {
+  margin: 0;\n  color: #6c757d;
+}
+
+.chat-body {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #e9ecef;
+}
+
+.no-messages-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.no-messages-placeholder {
+  padding: 20px 40px;
+  background-color: #fff;
+  border-radius: 12px;
+  color: #6c757d;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.message-container {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.user-message {
+  justify-content: flex-end;
+}
+
+.consultant-message {
+  justify-content: flex-start;
+}
+
+.message-bubble {
+  max-width: 70%;
+  padding: 10px 15px;
+  border-radius: 20px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.user-message .message-bubble {
+  background-color: #007bff;
+  color: white;
+  border-top-right-radius: 5px;
+}
+
+.consultant-message .message-bubble {
+  background-color: #fff;
+  color: #343a40;
+  border: 1px solid #dee2e6;
+  border-top-left-radius: 5px;
+}
+
+.chat-footer {
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-top: 1px solid #dee2e6;
+}
+
+.chat-footer .form-control {
+  border-radius: 20px;
+  border: 1px solid #ced4da;
+  padding: 10px 15px;
+}
+
+.chat-footer .btn-send {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+}
+
+.chat-footer .btn-send:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.spinner-border {
+  width: 1.25rem;
+  height: 1.25rem;
+}
